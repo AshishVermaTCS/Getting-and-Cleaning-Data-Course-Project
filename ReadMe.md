@@ -1,20 +1,19 @@
-===================================================================================================================
-###Peer-graded Assignment: Getting and Cleaning Data Course Project
+##Peer-graded Assignment: Getting and Cleaning Data Course Project
 
-##Submitted by : Ashish Verma
-##Description: This file consists of various dependencies and steps involved in cleaning the data.
-===================================================================================================================
+###Submitted by : Ashish Verma
+###Description: This file consists of various dependencies and steps involved in cleaning the data.
 
-===================================================================================================================
-##Dependencies and Assumptions
-===================================================================================================================
+###Dependencies and Assumptions
+
 1) The assignment references "dplyr" package. Hence, "dplyr" should be installed before script execution.
+
 2) The working directory has to be set as "~\getdata_projectfiles_UCI HAR Dataset\UCI HAR Dataset" ("~" should be replaced appropriately with the real path for one's machine).
 
-===================================================================================================================
-##Steps
-===================================================================================================================
+
+###Steps
+
 The entire data tidying activity has been split into 14 steps. They are:
+
 1) Load the test data set i.e., "test\X_test.txt".
 
 2) Load the activities for test data set i.e., "test\y_test.txt".
@@ -48,8 +47,3 @@ The entire data tidying activity has been split into 14 steps. They are:
 This will be the secondary cleaned and aggregated tidy dataset. (This is the final cleaned data as requested in the step-5 in the assignment).
 
 14) Write the final data from step (13) to a txt file named "Tidy Data Set_Subset.txt". 
-	
-
-===================================================================================================================
-===================================================================================================================
-

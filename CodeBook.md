@@ -1,15 +1,13 @@
 ===================================================================================================================
-###Peer-graded Assignment: Getting and Cleaning Data Course Project
+##Peer-graded Assignment: Getting and Cleaning Data Course Project
 
-##Submitted by : Ashish Verma
-##Description: This codebook explains:
+###Submitted by : Ashish Verma
+###Description: This codebook explains:
 	1) Various files included 
 	2) Various variables in the data set
-===================================================================================================================
 
-===================================================================================================================
-##Various files included
-===================================================================================================================
+###Various files included
+
 1) Run_Analysis.R
 	R-script consisting of the R-code used for tidying the data.
 
@@ -20,9 +18,9 @@
 	This file explains the step by step meachanism of data tidying process alongs with dependencies and assumptions considered.
 
 
-===================================================================================================================
-##Various variables in the data set
-===================================================================================================================
+###Various variables in the data set
+
+
 Tidy Data Set_Subset.csv (In the below list, columns starting 4 i.e., "tBodyAcc-mean()-X" and spanning till last column i.e., "fBodyBodyGyroJerkMag-std()" are actually the mean of the respectively columns grouped by subject and activity from the final data set derived as per step-4 of the assignment.) 	
 	Subject	
 	Activity
@@ -105,5 +103,3 @@ Tidy Data Set_Subset.csv (In the below list, columns starting 4 i.e., "tBodyAcc-
 	fBodyBodyAccJerkMag-std()	
 	fBodyBodyGyroMag-std()	
 	fBodyBodyGyroJerkMag-std()	
-===================================================================================================================
-===================================================================================================================
